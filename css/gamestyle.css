@@ -1,0 +1,61 @@
+/*
+	
+	.block-name__element-name
+ 
+ */
+
+body {
+	background-color: #E7E8E3;
+	z-index: 100;
+	padding: 0px;
+	margin: 0px;
+}
+
+#basic-person {
+	padding: 0px;
+	width: 60px;
+	height: 60px;
+	background-color: #444;
+	position: absolute;
+	z-index: 1000;
+}
+
+#slave-person {
+	width: 80px;
+	height: 80px;
+	background-color: #448503;
+	position: absolute;
+	z-index: 1100;
+}
+
+#bomb {
+	width: 30px;
+	height: 30px;
+	background-color: #B50000;
+	position: absolute;
+}
+
+#bomb2 {
+	width: 50px;
+	height: 30px;
+	background-color: #B50000;
+	position: absolute;
+	border-radius: 8px;
+}
+
+.position-info-box {
+	padding: 12px;
+	margin: 10px;
+	background-color: #EBECC2;
+	width: auto;
+	z-index: 2000;
+	position: absolute;
+	display: block;
+}
+
+#basic-person__counter {
+	font-size: 12px;
+	color: #fff;
+	float: left;
+	padding: 4px;
+}

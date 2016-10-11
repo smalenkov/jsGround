@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Light Script</title>
+</head>
+<body>
+	<script>
+		var a = {
+			one: 1,
+			two: 2,
+			three: 3
+		};
+
+		var b = {
+			one: 1,
+			two: (a.three+a.two),
+			name: {
+				firstname: "Misha",
+				lastname: "Petrov"
+			},
+			sayHi: function() {
+				document.write(a.one + "<br>");
+			}
+		};
+
+		document.write (b.two + "<br>");
+		b.sayHi();
+		document.write (b.name.lastname + "<br>");
+
+	</script>
+</body>
+</html>
